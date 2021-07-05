@@ -1,6 +1,6 @@
 const numberOfGames = 9;
 var a, b, c, d, e, f, g, h, i;
-var score
+var score;
 
 document.getElementById("calculate").addEventListener("click", calculatePerformance);
 
@@ -86,31 +86,31 @@ function raiseLowest(){
 
 function setToNewValue (oldValue, newValue){
         if (a===oldValue){
-                a=newValue;
+                a = Math.max(newValue, oldValue);
         }
         else if (b===oldValue){
-                b=newValue;
+                b = Math.max(newValue, oldValue);
         }
         else if (c===oldValue){
-                c=newValue;
+                c = Math.max(newValue, oldValue);
         }
         else if (d===oldValue){
-                d=newValue;
+                d = Math.max(newValue, oldValue);
         }
         else if (e===oldValue){
-                e=newValue;
+                e = Math.max(newValue, oldValue);
         }
         else if (f===oldValue){
-                f=newValue;
+                f = Math.max(newValue, oldValue);
         }
-        else if (g==lowest){
-                g=newValue;
-        }
-        else if (h===oldValue){
-                h=newValue;
+        else if (g===lowest){
+                g = Math.max(newValue, oldValue);
         }
         else if (h===oldValue){
-                h=newValue;
+                h = Math.max(newValue, oldValue);
+        }
+        else if (i===oldValue){
+                i = Math.max(newValue, oldValue);
         }
 }
 
