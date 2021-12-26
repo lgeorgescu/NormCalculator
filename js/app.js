@@ -103,7 +103,7 @@ function setToNewValue (oldValue, newValue){
         else if (f===oldValue){
                 f = Math.max(newValue, oldValue);
         }
-        else if (g===lowest){
+        else if (g===oldValue){
                 g = Math.max(newValue, oldValue);
         }
         else if (h===oldValue){
